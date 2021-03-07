@@ -50,5 +50,10 @@ public class TrainSystemTest {
 		Assert.assertEquals(0, controller.getReferenceSpeed());
 	}
 
-	
+	@Test
+	public void CheckingServiceIdGenerationForTheNewFeature() {
+		Assert.assertEquals(0, user.getServiceIdForAllDevices());
+		user.generateServiceIdForAllDevices();
+		Assert.assertEquals(42, user.getServiceIdForAllDevices());
+	}
 }
