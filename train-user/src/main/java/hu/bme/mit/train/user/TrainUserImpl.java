@@ -39,4 +39,6 @@ public class TrainUserImpl implements TrainUser {
 		return serviceIdForAllDevices;
 	}
 
+	error
+
 }
