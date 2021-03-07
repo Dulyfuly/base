@@ -58,7 +58,7 @@ public class TrainSystemTest {
 	}
 
 	@Test
-	public void CheckEquality_SixOfOne_HalfOfDozenOfTheOther() {
+	public void CheckEquality_SixOfOne_HalfADozenOfTheOther() {
 		Assert.assertEquals(6, 12 / 2);
 	}
 }
