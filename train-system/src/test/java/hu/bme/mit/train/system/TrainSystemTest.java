@@ -56,4 +56,9 @@ public class TrainSystemTest {
 		user.generateServiceIdForAllDevices();
 		Assert.assertEquals(42, user.getServiceIdForAllDevices());
 	}
+
+	@Test
+	public void CheckEquality_SixOfOne_HalfOfDozenOfTheOther() {
+		Assert.assertEquals(6, 12 / 2);
+	}
 }
