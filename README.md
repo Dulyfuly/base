@@ -49,4 +49,4 @@ The figure below illustrates this behavior using an example.
 
 ## Markdown exercises
 
-This is a **change** in branch-A at [README.md](https://github.com/Dulyfuly/base/blob/master/README.md) for *Task 2*.
+This is a **change** in master at [README.md](https://github.com/Dulyfuly/base/blob/master/README.md) for *Task 2*.
