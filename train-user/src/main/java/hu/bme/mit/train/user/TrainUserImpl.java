@@ -7,6 +7,7 @@ public class TrainUserImpl implements TrainUser {
 
 	private TrainController controller;
 	private int joystickPosition;
+	private int serviceIdForAllDevices = 0;
 
 	public TrainUserImpl(TrainController controller) {
 		this.controller = controller;
@@ -26,6 +27,16 @@ public class TrainUserImpl implements TrainUser {
 	public void overrideJoystickPosition(int joystickPosition) {
 		this.joystickPosition = joystickPosition;
 		controller.setJoystickPosition(joystickPosition);
+	}
+
+	@Override
+	public void generateServiceIdForAllDevices() {
+		serviceIdForAllDevices = 42;
+	}
+
+	@Override
+	public int getServiceIdForAllDevices() {
+		return serviceIdForAllDevices;
 	}
 
 }
